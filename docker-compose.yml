@@ -6,3 +6,5 @@ services:
     tty: true
     volumes:
       - ./src:/app
+    privileged: true
+    command: /sbin/init
